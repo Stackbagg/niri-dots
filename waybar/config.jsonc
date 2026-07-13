@@ -1,0 +1,37 @@
+// -*- mode: jsonc -*-
+{    
+    "height": 40, 
+    "spacing": 4, 
+    "modules-left": [
+        "niri/workspaces"
+    ],
+    "modules-center": [
+        "clock"
+    ],
+    "modules-right": [
+        "niri/language",
+        "cpu",
+        "memory"
+    ],
+       "clock": {
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "format-alt": "{:%Y-%m-%d}"
+    },
+
+    "cpu": {
+        "format": "{usage}% ",
+        "tooltip": false
+    },
+
+    "memory": {
+        "format": "{}% "
+    },
+
+    "niri/language": {
+        "format-en": "us",
+        "format-ru": "ru"
+    }
+
+
+    
+}
