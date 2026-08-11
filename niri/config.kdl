@@ -132,12 +132,16 @@ window-rule {
 }
 
 window-rule {
-    match app-id="qutebrowser"
+    match app-id="firefox"
     open-maximized true
 }
 
 window-rule {
     match app-id="code-oss"
+    open-maximized true
+}
+window-rule {
+    match app-id="obsidian"
     open-maximized true
 }
 
