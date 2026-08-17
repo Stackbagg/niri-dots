@@ -8,7 +8,7 @@
 }
 
 window#waybar {
-    background-color: transparent; 
+    background-color: #414868; 
     color: #ffffff;
 }
 
@@ -24,7 +24,6 @@ button {
     padding: 0 5px;
     min-width: 25px;
     margin-left: 3px; 
-    border-radius: 5px;
     background-color: #414868;
     color: #f7768e;
 }
@@ -33,8 +32,9 @@ button {
 
 #workspaces button.focused, #workspaces button.active {
     background-color: #9ece6a;
-    
-    border-radius: 5px;
+    min-width: 50px;
+    transition: all 500ms ease-in-out;
+    border-radius: 8px;
 }
 
 #workspaces button.urgent {
@@ -44,9 +44,9 @@ button {
 
 #clock {
     background-color: #414868;
-    border-radius: 7px; 
     color: #f7768e;
     min-width: 100px;
+    font-size: large;
 }
 
 
