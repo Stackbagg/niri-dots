@@ -19,7 +19,6 @@ button {
     border-radius: 0;
 }
 
-
 #workspaces button {
     padding: 0 5px;
     min-width: 25px;
@@ -29,9 +28,8 @@ button {
 }
 
 
-
 #workspaces button.focused, #workspaces button.active {
-    background-color: #9ece6a;
+    background-color: #7dcfff;
     min-width: 50px;
     transition: all 500ms ease-in-out;
     border-radius: 8px;
@@ -54,21 +52,33 @@ button {
     min-width: 60px;
     margin-right: 3px;
     border-radius: 5px;
-    background-color: #9ece6a;
-    color: #000000;
+    color: #9ece6a;
+    background-color: transparent;
+    font-size: larger;
+    font-weight: bold;
 }
 
 #memory {
     min-width: 70px;
     border-radius: 5px;
-    color: #000000;
-    background-color: #bb9af7;
+    color: #bb9af7;
+    background-color: transparent;
+    font-size: larger;
+    font-weight: bold;
 }
 
 #language {
     min-width: 45px;
     margin-right: 3px;
     border-radius: 5px;
-    background-color: #e0af68;
-    color: #000000;
+    color: #e0af68;
+    background-color: transparent;
+    font-size: larger;
+    font-weight: bold;
+}
+
+#custom-separator {
+    color: #9aa5ce;
+    background-color: transparent;
+    font-size: large;
 }

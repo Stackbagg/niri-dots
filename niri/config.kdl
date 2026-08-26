@@ -55,7 +55,7 @@ layout {
    
     focus-ring {
         width 4
-        active-color "#9ece6a"
+        active-color "#7dcfff"
         inactive-color "#505050"
 
     }
@@ -168,7 +168,7 @@ binds {
 
     // Suggested binds for running programs: terminal, app launcher, screen locker.
     Mod+Return hotkey-overlay-title="Open a Terminal: alacritty" { spawn "foot"; }
-    Mod+D hotkey-overlay-title="Run an Application: wofi" { spawn-sh "wofi --show drun"; }
+    Mod+D hotkey-overlay-title="Run an Application: rofi" { spawn-sh "rofi -show drun"; }
     Super+Alt+L hotkey-overlay-title="Spawn wlogout" { spawn "wlogout"; }
 
 
